@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# Created by Vera Lazareva 2024 
+
 # Показать на экран все простые числа в диапазоне,
 # указанном пользователем. Число называется простым,
 # если оно делится без остатка только на себя и на единицу.
@@ -44,4 +47,3 @@ for i in range(start, end+1):
     for j in range(1, 11):
         result = i * j
         print(f"{i} * {j} = {result}", end="\t")
-    
